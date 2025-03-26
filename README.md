@@ -19,3 +19,5 @@ PSEUDO CODE
   When you open the site, it will automatically display any of the previous names. 
 
   Delete all names will allow you to delete all of the names in the display, then will update the code so then there is nothing displaying.
+
+The names automatically shuffle when you pick a name, and will pick a random name at the start of using the site.
