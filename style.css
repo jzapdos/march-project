@@ -1,0 +1,132 @@
+
+#body{
+    background-color: rgb(60, 99, 2);
+    padding:0;
+}
+
+h1{
+    color:white !important;
+    text-align: center;
+    padding-bottom: 25px; 
+}
+
+#selected-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #05ce02 !important;
+    margin-top: 20px;
+}
+
+#input-container {
+    display: flex;
+    gap: 10px; 
+    align-items: center; 
+    display: flex;
+}
+
+#pickRandom{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    margin: 20px auto;
+    cursor:pointer;
+    padding:10px;
+}
+
+#name-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 20px; 
+}
+
+#name-list {
+    flex: 1; 
+}
+
+#selected-name {
+    flex: 1; 
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+#name-list {
+    display: grid;
+    grid-template-columns: 1fr; 
+    max-width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+#name-list li {
+    background: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name-list:has(li:nth-child(8)) {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#name-list:has(li:nth-child(16)) {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+#delete-all {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: #ff0000;
+    color:white;
+}
+
+#option {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f04d01;
+    color:white;
+}
+
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px; 
+    width: 50%; 
+}
+
+#name-input {
+    flex-grow: 1; 
+    height: 50px;
+    font-size: 1.2rem;
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0;
+}
+
+#add-name {
+    height: 50px; 
+    font-size: 1.2rem;
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0;
+    border-left: 0; 
+    white-space: nowrap; 
+    background-color: #05ce02;
+    border-color:#05ce02;
+}
