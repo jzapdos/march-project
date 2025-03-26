@@ -20,4 +20,4 @@ PSEUDO CODE
 
   Delete all names will allow you to delete all of the names in the display, then will update the code so then there is nothing displaying.
 
-The names automatically shuffle when you pick a name, and will pick a random name at the start of using the site.
+The names automatically shuffle when you pick a name but will not display it, and will pick a random name at the start of using the site.
